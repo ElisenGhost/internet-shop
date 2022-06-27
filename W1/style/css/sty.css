@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    src: url(/style/srift/Montserrat/Montserrat-Bold.ttf);
+    
+}
+a {
+    color: #0096fa;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+h1 {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 34px;
+}
+label {
+    font-weight: bold;
+}
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px 10px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #1fd1f9 0%, #ab19be 51%, #1fd1f9 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    border: none;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.btn:hover {
+    background-position: right center;
+}
